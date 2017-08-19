@@ -1,4 +1,4 @@
-# AudioBasedRecommmendation
+# AudioBasedRecommendation
 note:-please create grayscales and resize directory before running hacker+earth (6).ipynb on jupyter notebook
 
 Approach:-
@@ -12,4 +12,4 @@ Step 4:-Applied Autoencoder nueral network on the images.
 
 Step 5:-Calculated euclidean distance matrix for each song.
 
-Step 6:- Recomend users songs based on the Euclidean Distance.
+Step 6:- Recommend users songs based on the Euclidean Distance.
