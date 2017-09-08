@@ -1,15 +1,14 @@
 # AudioBased Recommendation
-note:-please create grayscales and resize directory before running hacker+earth (6).ipynb on jupyter notebook
 
 Approach:-
-Step1:-Convert audio files to spectogram.
-
-Step 2:-Converted coloured spectogram image to gray scale image.
+Step1:-Converts the mp3 to wav. The wav file is then converted to a spectogram image
 
 Step 3:-Resize spectogram image size to 128 by 128 image size.
 
-Step 4:-Applied Autoencoder nueral network on the images.
+Step 4:- Training is done using Autoencoder nueral network on the images. Each song is represented by a vector, which is of size 128 x 128 x 3. 3 for 3 channels (r,g,b)
 
-Step 5:-Calculated euclidean distance matrix for each song.
+Step 5:-Calculated euclidean distance matrix of the song vectors
 
 Step 6:- Recommend users songs based on the Euclidean Distance.
+
+
