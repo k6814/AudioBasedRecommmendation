@@ -1,7 +1,9 @@
 # AudioBased Recommendation
 
 Approach:-
-Step1:-Converts the mp3 to wav. The wav file is then converted to a spectogram image
+Step1:-Converts the mp3 to wav. 
+
+Step2:-The wav file is then converted to a spectogram image
 
 Step 3:-Resize spectogram image size to 128 by 128 image size.
 
